@@ -3,7 +3,7 @@ import keyboard, random
 
 dataSet = pd.read_csv("Semester 1\TextGen\wordPairs.csv")
 
-prevWord = "car"
+prevWord = "yes"
 print(prevWord, end="")
 
 def on_key(event):
