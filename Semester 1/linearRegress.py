@@ -39,6 +39,7 @@ f = lambda x: slope * (x - startPoints[0][0]) + startPoints[0][1] # median line
 
 m = ((slope, calcIntercept(slope, startPoints[0][0], startPoints[0][1])), lambda x: slope * x + calcIntercept(slope, startPoints[0][0], startPoints[0][1]))
 
+
 while True:
     if abs(l - m) > abs(m - s):
         #between m and s
